@@ -1,0 +1,18 @@
+{
+  "php class": {
+    "prefix": "phpclass",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "namespace $0;",
+      "",
+      "class $TM_FILENAME_BASE",
+      "{",
+      "    $1",
+      "}"
+    ],
+    "description": "php class"
+  }
+}
