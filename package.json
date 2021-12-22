@@ -1,9 +1,9 @@
 {
   "name": "php-enhanced-snippets",
   "displayName": "PHP Enhanced Snippets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "aspirantzhang",
-  "description": "A fullset of snippets for PHP devs to boost coding productivity.",
+  "description": "Provide a complete set of code snippets for PHP developers.",
   "author": {
     "name": "Aspirant Zhang"
   },
@@ -38,8 +38,8 @@
   "contributes": {
     "snippets": [
       {
-        "language": "plaintext",
-        "path": "./snippets/plaintext/class.json"
+        "language": "html",
+        "path": "./snippets/html/class.json"
       }
     ]
   },
@@ -47,6 +47,7 @@
     "auto-changelog": "^2.3.0"
   },
   "scripts": {
-    "version": "auto-changelog -p && git add CHANGELOG.md"
+    "version": "auto-changelog -p && git add CHANGELOG.md",
+    "package": "vsce package"
   }
 }
