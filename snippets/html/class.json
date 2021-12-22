@@ -6,11 +6,11 @@
       "",
       "declare(strict_types=1);",
       "",
-      "namespace $0;",
+      "namespace $1;",
       "",
       "class $TM_FILENAME_BASE",
       "{",
-      "    $1",
+      "    $0",
       "}"
     ],
     "description": "php class"
