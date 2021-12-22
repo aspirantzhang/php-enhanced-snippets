@@ -5,6 +5,7 @@
 
 # Dir
 node_modules
+test
 
 # OS generated files #
 ######################
@@ -37,3 +38,4 @@ Thumbs.db
 *.rar
 *.tar
 *.zip
+*.vsix
