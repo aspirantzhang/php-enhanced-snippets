@@ -12,9 +12,12 @@ You can use it to avoid wasting time typing Class blocks, function signatures or
 ## Snippets
 
 ### Class related
-| Snippet | Output |
-| --- | --- |
-| phpclass | `standard php class` |
+| Snippet | Output | Language
+| --- | --- | --- |
+| phpclass | `standard php class` | html+php |
+| phpclano | `php class without strict type and namespace` | html |
+| phpclanostr | `php class without strict type` | html |
+| phpclanonam | `php class without namespace` | html |
 
 ## Special Thanks
 This extension is forked from [h4kst3r/php-awesome-snippets](https://github.com/h4kst3r/php-awesome-snippets). Because its author seems to have not maintained it for a long time. So I made this fork to make the extension suitable for new version of PHP. I re-planned the shortcut keys, and add more standardized writing methods. Great thanks to h4kst3r's excellent work.

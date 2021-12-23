@@ -1,0 +1,7 @@
+{
+  "php class": {
+    "prefix": "phpcla",
+    "body": ["class $TM_FILENAME_BASE", "{", "    $0", "}", ""],
+    "description": "php class"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "php class": {
-    "prefix": "phpclass",
+    "prefix": "phpcla",
     "body": [
       "<?php",
       "",
@@ -11,8 +11,44 @@
       "class $TM_FILENAME_BASE",
       "{",
       "    $0",
-      "}"
+      "}",
+      ""
     ],
     "description": "php class"
+  },
+  "php class no": {
+    "prefix": "phpclano",
+    "body": ["<?php", "", "class $TM_FILENAME_BASE", "{", "    $0", "}", ""],
+    "description": "php class without strict type and namespace"
+  },
+  "php class no strict": {
+    "prefix": "phpclanostr",
+    "body": [
+      "<?php",
+      "",
+      "namespace $1;",
+      "",
+      "class $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php class without strict type"
+  },
+  "php class no namespace": {
+    "prefix": "phpclanonam",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "class $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php class without namespace"
   }
 }
