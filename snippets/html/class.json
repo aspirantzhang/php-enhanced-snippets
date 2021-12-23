@@ -1,6 +1,6 @@
 {
   "php class": {
-    "prefix": "phpcla",
+    "prefix": "php-class",
     "body": [
       "<?php",
       "",
@@ -17,12 +17,12 @@
     "description": "php class"
   },
   "php class no": {
-    "prefix": "phpclano",
+    "prefix": "php-class-no",
     "body": ["<?php", "", "class $TM_FILENAME_BASE", "{", "    $0", "}", ""],
     "description": "php class without strict type and namespace"
   },
   "php class no strict": {
-    "prefix": "phpclanostr",
+    "prefix": "php-class-no-strict",
     "body": [
       "<?php",
       "",
@@ -37,7 +37,7 @@
     "description": "php class without strict type"
   },
   "php class no namespace": {
-    "prefix": "phpclanonam",
+    "prefix": "php-class-no-namespace",
     "body": [
       "<?php",
       "",
@@ -50,5 +50,39 @@
       ""
     ],
     "description": "php class without namespace"
+  },
+  "php class extends": {
+    "prefix": "php-class-extends",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "namespace $1;",
+      "",
+      "class $TM_FILENAME_BASE extends $2",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php class with extends"
+  },
+  "php class implements": {
+    "prefix": "php-class-implements",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "namespace $1;",
+      "",
+      "class $TM_FILENAME_BASE implements $2",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php class with implements"
   }
 }
