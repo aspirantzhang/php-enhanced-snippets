@@ -5,9 +5,14 @@
 [![PSR-2](https://img.shields.io/badge/Standard-PSR--2-%2326A69A.svg)](https://www.php-fig.org/psr/psr-2/)
 [![PSR-12](https://img.shields.io/badge/Standard-PSR--12-%2326A69A.svg)](https://www.php-fig.org/psr/psr-12/)
 
-**This [VScode extension](https://marketplace.visualstudio.com/items?itemName=aspirantzhang.php-enhanced-snippets) provide a complete set of code snippets for PHP developers.**
+**This [VScode extension](https://marketplace.visualstudio.com/items?itemName=aspirantzhang.php-enhanced-snippets) provides a complete set of code snippets for PHP developers.**
 
 You can use it to avoid wasting time typing Class blocks, function signatures or other common PHP statements.
+
+## Usage
+Maybe it's a good practice to use only the first three letters of each word.
+For example, when I want 'php class with implements', then just type:
+`php cla imp` (no spaces when typing)
 
 ## Snippets
 
