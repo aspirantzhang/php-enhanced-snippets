@@ -84,5 +84,65 @@
       ""
     ],
     "description": "php class with implements"
+  },
+  "php abstract class": {
+    "prefix": "php-abstract-class",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "namespace $1;",
+      "",
+      "abstract class $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php abstract class"
+  },
+  "php abstract class no": {
+    "prefix": "php-abstract-class-no",
+    "body": [
+      "<?php",
+      "",
+      "abstract class $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php class without strict type and namespace"
+  },
+  "php abstract class no strict": {
+    "prefix": "php-abstract-class-no-strict",
+    "body": [
+      "<?php",
+      "",
+      "namespace $1;",
+      "",
+      "abstract class $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php abstract class without strict type"
+  },
+  "php abstract class no namespace": {
+    "prefix": "php-abstract-class-no-namespace",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "abstract class $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php abstract class without namespace"
   }
 }

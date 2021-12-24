@@ -13,5 +13,10 @@
     "prefix": "php-class-implements",
     "body": ["class $TM_FILENAME_BASE implements $1", "{", "    $0", "}", ""],
     "description": "php class with implements"
+  },
+  "php abstract class": {
+    "prefix": "php-abstract-class",
+    "body": ["abstract class $TM_FILENAME_BASE", "{", "    $0", "}", ""],
+    "description": "php abstract class"
   }
 }
