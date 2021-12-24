@@ -52,6 +52,7 @@
   },
   "scripts": {
     "version": "auto-changelog -p && git add CHANGELOG.md",
-    "package": "vsce package"
+    "package": "vsce package",
+    "release": "vsce publish"
   }
 }
