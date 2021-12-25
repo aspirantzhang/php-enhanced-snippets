@@ -10,7 +10,7 @@
       "",
       "class $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -18,7 +18,7 @@
   },
   "php class no": {
     "prefix": "php-class-no",
-    "body": ["<?php", "", "class $TM_FILENAME_BASE", "{", "    $0", "}", ""],
+    "body": ["<?php", "", "class $TM_FILENAME_BASE", "{", "\t$0", "}", ""],
     "description": "php class without strict type and namespace"
   },
   "php class no strict": {
@@ -30,7 +30,7 @@
       "",
       "class $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -45,7 +45,7 @@
       "",
       "class $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -62,7 +62,7 @@
       "",
       "class $TM_FILENAME_BASE extends $2",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -79,7 +79,7 @@
       "",
       "class $TM_FILENAME_BASE implements $2",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -96,7 +96,7 @@
       "",
       "abstract class $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -109,7 +109,7 @@
       "",
       "abstract class $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -124,7 +124,7 @@
       "",
       "abstract class $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -139,7 +139,7 @@
       "",
       "abstract class $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -156,7 +156,7 @@
       "",
       "final class $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -169,7 +169,7 @@
       "",
       "final class $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -184,7 +184,7 @@
       "",
       "final class $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -199,7 +199,7 @@
       "",
       "final class $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -216,7 +216,7 @@
       "",
       "final class $TM_FILENAME_BASE extends $2",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -233,7 +233,7 @@
       "",
       "final class $TM_FILENAME_BASE implements $2",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -250,7 +250,7 @@
       "",
       "interface $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -258,15 +258,7 @@
   },
   "php interface no": {
     "prefix": "php-interface-no",
-    "body": [
-      "<?php",
-      "",
-      "interface $TM_FILENAME_BASE",
-      "{",
-      "    $0",
-      "}",
-      ""
-    ],
+    "body": ["<?php", "", "interface $TM_FILENAME_BASE", "{", "\t$0", "}", ""],
     "description": "php interface without strict type and namespace"
   },
   "php interface no strict": {
@@ -278,7 +270,7 @@
       "",
       "interface $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -293,7 +285,7 @@
       "",
       "interface $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -310,7 +302,7 @@
       "",
       "interface $TM_FILENAME_BASE extends $2",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
@@ -327,7 +319,7 @@
       "",
       "trait $TM_FILENAME_BASE",
       "{",
-      "    $0",
+      "\t$0",
       "}",
       ""
     ],
