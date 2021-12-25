@@ -13,5 +13,35 @@
     "prefix": "protected-construct",
     "body": ["protected function __construct($1)", "{", "\t$0", "}"],
     "description": "protected construct"
+  },
+  "public function": {
+    "prefix": "public-function",
+    "body": ["public function $1($2)", "{", "\t$0", "}"],
+    "description": "public function"
+  },
+  "private function": {
+    "prefix": "private-function",
+    "body": ["private function $1($2)", "{", "\t$0", "}"],
+    "description": "private function"
+  },
+  "protected function": {
+    "prefix": "protected-function",
+    "body": ["protected function $1($2)", "{", "\t$0", "}"],
+    "description": "protected function"
+  },
+  "public function return": {
+    "prefix": "public-function-return",
+    "body": ["public function $1($2): $3", "{", "\t$0", "}"],
+    "description": "public function with return type"
+  },
+  "private function return": {
+    "prefix": "private-function-return",
+    "body": ["private function $1($2): $3", "{", "\t$0", "}"],
+    "description": "private function with return type"
+  },
+  "protected function return": {
+    "prefix": "protected-function-return",
+    "body": ["protected function $1($2): $3", "{", "\t$0", "}"],
+    "description": "protected function with return type"
   }
 }

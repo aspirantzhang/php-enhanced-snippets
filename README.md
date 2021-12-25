@@ -30,6 +30,12 @@ For example, when I want 'php class with implements', then just type:
 | public-construct | `public function __construct()` | php |
 | protected-construct | `protected function __construct()` | php |
 | private-construct | `private function __construct()` | php |
+| public-function | `public function` | php |
+| protected-function | `protected function` | php |
+| private-function | `private function` | php |
+| public-function-return | `public function with return type` | php |
+| protected-function-return | `protected function with return type` | php |
+| private-function-return | `private function with return type` | php |
 
 ### Class related
 | Snippet | Output | Language
