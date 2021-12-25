@@ -315,5 +315,22 @@
       ""
     ],
     "description": "php interface with extends"
+  },
+  "php trait": {
+    "prefix": "php-trait",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "namespace $1;",
+      "",
+      "trait $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php trait"
   }
 }

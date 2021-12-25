@@ -55,5 +55,10 @@
     "prefix": "php-interface-extends",
     "body": ["interface $TM_FILENAME_BASE extends $1", "{", "    $0", "}", ""],
     "description": "php interface with extends"
+  },
+  "php trait": {
+    "prefix": "php-trait",
+    "body": ["trait $TM_FILENAME_BASE", "{", "    $0", "}", ""],
+    "description": "php trait"
   }
 }

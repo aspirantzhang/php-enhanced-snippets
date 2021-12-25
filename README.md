@@ -40,6 +40,7 @@ For example, when I want 'php class with implements', then just type:
 | php-interface-no-strict | `php interface without strict type` | html |
 | php-interface-no-namespace | `php interface without namespace` | html |
 | php-interface-extends | `php interface with extends` | html, php |
+| php-trait | `php trait` | html, php |
 
 ## Special Thanks
 This extension is forked from [h4kst3r/php-awesome-snippets](https://github.com/h4kst3r/php-awesome-snippets). Because its author seems to have not maintained it for a long time. So I made this fork to make the extension suitable for new version of PHP. I re-planned the shortcut keys, and add more standardized writing methods. Great thanks to h4kst3r's excellent work.
