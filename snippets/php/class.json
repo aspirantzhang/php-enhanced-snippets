@@ -45,5 +45,15 @@
       ""
     ],
     "description": "php final class with implements"
+  },
+  "php interface": {
+    "prefix": "php-interface",
+    "body": ["interface $TM_FILENAME_BASE", "{", "    $0", "}", ""],
+    "description": "php interface"
+  },
+  "php interface extends": {
+    "prefix": "php-interface-extends",
+    "body": ["interface $TM_FILENAME_BASE extends $1", "{", "    $0", "}", ""],
+    "description": "php interface with extends"
   }
 }

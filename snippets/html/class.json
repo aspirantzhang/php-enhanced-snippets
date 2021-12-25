@@ -238,5 +238,82 @@
       ""
     ],
     "description": "php final class with implements"
+  },
+  "php interface": {
+    "prefix": "php-interface",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "namespace $1;",
+      "",
+      "interface $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php interface"
+  },
+  "php interface no": {
+    "prefix": "php-interface-no",
+    "body": [
+      "<?php",
+      "",
+      "interface $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php interface without strict type and namespace"
+  },
+  "php interface no strict": {
+    "prefix": "php-interface-no-strict",
+    "body": [
+      "<?php",
+      "",
+      "namespace $1;",
+      "",
+      "interface $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php interface without strict type"
+  },
+  "php interface no namespace": {
+    "prefix": "php-interface-no-namespace",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "interface $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php interface without namespace"
+  },
+  "php interface extends": {
+    "prefix": "php-interface-extends",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "namespace $1;",
+      "",
+      "interface $TM_FILENAME_BASE extends $2",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php interface with extends"
   }
 }

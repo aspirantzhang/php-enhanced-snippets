@@ -19,22 +19,27 @@ For example, when I want 'php class with implements', then just type:
 ### Class related
 | Snippet | Output | Language
 | --- | --- | --- |
-| php-class | `standard php class` | html, php |
+| php-class | `php class` | html, php |
 | php-class-no | `php class without strict type and namespace` | html |
 | php-class-no-strict | `php class without strict type` | html |
 | php-class-no-namespace | `php class without namespace` | html |
 | php-class-extends | `php class with extends` | html, php |
 | php-class-implements | `php class with implements` | html, php |
-| php-abstract-class | `standard php abstract class` | html, php |
+| php-abstract-class | `php abstract class` | html, php |
 | php-abstract-class-no | `php abstract class without strict type and namespace` | html |
 | php-abstract-class-no-strict | `php abstract class without strict type` | html |
 | php-abstract-class-no-namespace | `php abstract class without namespace` | html |
-| php-final-class | `standard php final class` | html, php |
+| php-final-class | `php final class` | html, php |
 | php-final-class-no | `php final class without strict type and namespace` | html |
 | php-final-class-no-strict | `php final class without strict type` | html |
 | php-final-class-no-namespace | `php final class without namespace` | html |
 | php-final-class-extends | `php final class with extends` | html, php |
 | php-final-class-implements | `php final class with implements` | html, php |
+| php-interface | `php interface` | html, php |
+| php-interface-no | `php interface without strict type and namespace` | html |
+| php-interface-no-strict | `php interface without strict type` | html |
+| php-interface-no-namespace | `php interface without namespace` | html |
+| php-interface-extends | `php interface with extends` | html, php |
 
 ## Special Thanks
 This extension is forked from [h4kst3r/php-awesome-snippets](https://github.com/h4kst3r/php-awesome-snippets). Because its author seems to have not maintained it for a long time. So I made this fork to make the extension suitable for new version of PHP. I re-planned the shortcut keys, and add more standardized writing methods. Great thanks to h4kst3r's excellent work.
