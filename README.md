@@ -29,6 +29,12 @@ For example, when I want 'php class with implements', then just type:
 | php-abstract-class-no | `php abstract class without strict type and namespace` | html |
 | php-abstract-class-no-strict | `php abstract class without strict type` | html |
 | php-abstract-class-no-namespace | `php abstract class without namespace` | html |
+| php-final-class | `standard php final class` | html, php |
+| php-final-class-no | `php final class without strict type and namespace` | html |
+| php-final-class-no-strict | `php final class without strict type` | html |
+| php-final-class-no-namespace | `php final class without namespace` | html |
+| php-final-class-extends | `php final class with extends` | html, php |
+| php-final-class-implements | `php final class with implements` | html, php |
 
 ## Special Thanks
 This extension is forked from [h4kst3r/php-awesome-snippets](https://github.com/h4kst3r/php-awesome-snippets). Because its author seems to have not maintained it for a long time. So I made this fork to make the extension suitable for new version of PHP. I re-planned the shortcut keys, and add more standardized writing methods. Great thanks to h4kst3r's excellent work.

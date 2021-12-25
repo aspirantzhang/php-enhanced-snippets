@@ -18,5 +18,32 @@
     "prefix": "php-abstract-class",
     "body": ["abstract class $TM_FILENAME_BASE", "{", "    $0", "}", ""],
     "description": "php abstract class"
+  },
+  "php final class": {
+    "prefix": "php-final-class",
+    "body": ["final class $TM_FILENAME_BASE", "{", "    $0", "}", ""],
+    "description": "php final class"
+  },
+  "php final class extends": {
+    "prefix": "php-final-class-extends",
+    "body": [
+      "final class $TM_FILENAME_BASE extends $1",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php final class with extends"
+  },
+  "php final class implements": {
+    "prefix": "php-final-class-implements",
+    "body": [
+      "final class $TM_FILENAME_BASE implements $1",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php final class with implements"
   }
 }

@@ -144,5 +144,99 @@
       ""
     ],
     "description": "php abstract class without namespace"
+  },
+  "php final class": {
+    "prefix": "php-final-class",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "namespace $1;",
+      "",
+      "final class $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php final class"
+  },
+  "php final class no": {
+    "prefix": "php-final-class-no",
+    "body": [
+      "<?php",
+      "",
+      "final class $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php class without strict type and namespace"
+  },
+  "php final class no strict": {
+    "prefix": "php-final-class-no-strict",
+    "body": [
+      "<?php",
+      "",
+      "namespace $1;",
+      "",
+      "final class $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php final class without strict type"
+  },
+  "php final class no namespace": {
+    "prefix": "php-final-class-no-namespace",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "final class $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php final class without namespace"
+  },
+  "php final class extends": {
+    "prefix": "php-final-class-extends",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "namespace $1;",
+      "",
+      "final class $TM_FILENAME_BASE extends $2",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php final class with extends"
+  },
+  "php final class implements": {
+    "prefix": "php-final-class-implements",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "namespace $1;",
+      "",
+      "final class $TM_FILENAME_BASE implements $2",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "php final class with implements"
   }
 }
