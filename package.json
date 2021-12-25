@@ -1,7 +1,7 @@
 {
   "name": "php-enhanced-snippets",
   "displayName": "PHP Enhanced Snippets",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "publisher": "aspirantzhang",
   "description": "Provide a complete set of code snippets for PHP developers.",
   "author": {
@@ -53,6 +53,7 @@
   "scripts": {
     "version": "auto-changelog -p && git add CHANGELOG.md",
     "package": "vsce package",
-    "release": "vsce publish"
+    "release": "vsce publish",
+    "push": "yarn version && yarn release"
   }
 }
