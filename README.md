@@ -24,6 +24,13 @@ For example, when I want 'php class with implements', then just type:
 | php-close | `?>` | html |
 | php-page | `php page with strict type & namespace` | html |
 
+### Methods
+| Snippet | Output | Language
+| --- | --- | --- |
+| public-construct | `public function __construct()` | php |
+| protected-construct | `protected function __construct()` | php |
+| private-construct | `private function __construct()` | php |
+
 ### Class related
 | Snippet | Output | Language
 | --- | --- | --- |
