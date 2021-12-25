@@ -16,27 +16,35 @@ For example, when I want 'php class with implements', then just type:
 
 ## Snippets
 
+### PHP Tag
+| Snippet | Output | Language
+| --- | --- | --- |
+| php | `<?php ?>` | html |
+| php-open | `<?php` | html |
+| php-close | `?>` | html |
+| php-page | `php page with strict type & namespace` | html |
+
 ### Class related
 | Snippet | Output | Language
 | --- | --- | --- |
 | php-class | `php class` | html, php |
-| php-class-no | `php class without strict type and namespace` | html |
+| php-class-no | `php class without strict type & namespace` | html |
 | php-class-no-strict | `php class without strict type` | html |
 | php-class-no-namespace | `php class without namespace` | html |
 | php-class-extends | `php class with extends` | html, php |
 | php-class-implements | `php class with implements` | html, php |
 | php-abstract-class | `php abstract class` | html, php |
-| php-abstract-class-no | `php abstract class without strict type and namespace` | html |
+| php-abstract-class-no | `php abstract class without strict type & namespace` | html |
 | php-abstract-class-no-strict | `php abstract class without strict type` | html |
 | php-abstract-class-no-namespace | `php abstract class without namespace` | html |
 | php-final-class | `php final class` | html, php |
-| php-final-class-no | `php final class without strict type and namespace` | html |
+| php-final-class-no | `php final class without strict type & namespace` | html |
 | php-final-class-no-strict | `php final class without strict type` | html |
 | php-final-class-no-namespace | `php final class without namespace` | html |
 | php-final-class-extends | `php final class with extends` | html, php |
 | php-final-class-implements | `php final class with implements` | html, php |
 | php-interface | `php interface` | html, php |
-| php-interface-no | `php interface without strict type and namespace` | html |
+| php-interface-no | `php interface without strict type & namespace` | html |
 | php-interface-no-strict | `php interface without strict type` | html |
 | php-interface-no-namespace | `php interface without namespace` | html |
 | php-interface-extends | `php interface with extends` | html, php |

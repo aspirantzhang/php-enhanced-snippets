@@ -42,6 +42,10 @@
         "path": "./snippets/html/class.json"
       },
       {
+        "language": "html",
+        "path": "./snippets/html/php.json"
+      },
+      {
         "language": "php",
         "path": "./snippets/php/class.json"
       }

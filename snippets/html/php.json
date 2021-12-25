@@ -1,0 +1,31 @@
+{
+  "php tag": {
+    "prefix": "php",
+    "body": ["<?php $0 ?>"],
+    "description": "php tag"
+  },
+  "php open tag": {
+    "prefix": "php-open",
+    "body": ["<?php"],
+    "description": "php opening tag"
+  },
+  "php close tag": {
+    "prefix": "php-close",
+    "body": ["?>"],
+    "description": "php closing tag"
+  },
+  "php page": {
+    "prefix": "php-page",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "namespace $1;",
+      "",
+      "$0",
+      ""
+    ],
+    "description": "php page"
+  }
+}
