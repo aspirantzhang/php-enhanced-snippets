@@ -40,8 +40,38 @@
     "description": "private function with return type"
   },
   "protected function return": {
-    "prefix": "protected-function-return",
+    "prefix": "protected-static-function-return",
     "body": ["protected function $1($2): $3", "{", "\t$0", "}"],
     "description": "protected function with return type"
+  },
+  "public static function": {
+    "prefix": "public-static-function",
+    "body": ["public static function $1($2)", "{", "\t$0", "}"],
+    "description": "public static function"
+  },
+  "private static function": {
+    "prefix": "private-static-function",
+    "body": ["private static function $1($2)", "{", "\t$0", "}"],
+    "description": "private static function"
+  },
+  "protected static function": {
+    "prefix": "protected-static-function",
+    "body": ["protected static function $1($2)", "{", "\t$0", "}"],
+    "description": "protected static function"
+  },
+  "public static function return": {
+    "prefix": "public-static-function-return",
+    "body": ["public static function $1($2): $3", "{", "\t$0", "}"],
+    "description": "public static function with return type"
+  },
+  "private static function return": {
+    "prefix": "private-static-function-return",
+    "body": ["private static function $1($2): $3", "{", "\t$0", "}"],
+    "description": "private static function with return type"
+  },
+  "protected static function return": {
+    "prefix": "protected-static-function-return",
+    "body": ["protected static function $1($2): $3", "{", "\t$0", "}"],
+    "description": "protected static function with return type"
   }
 }

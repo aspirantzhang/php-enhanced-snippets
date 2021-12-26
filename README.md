@@ -36,6 +36,12 @@ For example, when I want 'php class with implements', then just type:
 | public-function-return | `public function with return type` | php |
 | protected-function-return | `protected function with return type` | php |
 | private-function-return | `private function with return type` | php |
+| public-static-function | `public static function` | php |
+| protected-static-function | `protected static function` | php |
+| private-static-function | `private static function` | php |
+| public-static-function-return | `public static function with return type` | php |
+| protected-static-function-return | `protected static function with return type` | php |
+| private-static-function-return | `private static function with return type` | php |
 
 ### Class related
 | Snippet | Output | Language
