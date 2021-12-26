@@ -46,6 +46,10 @@ It's a good practice to enter only the first two/three letters of each word. For
 | public-static-function-return | `public static function with return type` | php |
 | protected-static-function-return | `protected static function with return type` | php |
 | private-static-function-return | `private static function with return type` | php |
+| abstract-public-function | `abstract public function` | php |
+| abstract-protected-function | `abstract protected function` | php |
+| abstract-public-function-return | `abstract public function with return type` | php |
+| abstract-protected-function-return | `abstract protected function with return type` | php |
 
 ### Class related
 | Snippet | Output | Language

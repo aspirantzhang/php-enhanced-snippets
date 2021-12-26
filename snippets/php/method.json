@@ -73,5 +73,25 @@
     "prefix": "protected-static-function-return",
     "body": ["protected static function $1($2): $3", "{", "\t$0", "}"],
     "description": "protected static function with return type"
+  },
+  "abstract public function": {
+    "prefix": "abstract-public-function",
+    "body": ["abstract public function $1($2);"],
+    "description": "abstract public function"
+  },
+  "abstract protected function": {
+    "prefix": "abstract-protected-function",
+    "body": ["abstract protected function $1($2);"],
+    "description": "abstract protected function"
+  },
+  "abstract public function return": {
+    "prefix": "abstract-public-function-return",
+    "body": ["abstract public function $1($2): $3;"],
+    "description": "abstract public function with return type"
+  },
+  "abstract protected function return": {
+    "prefix": "abstract-protected-function-return",
+    "body": ["abstract protected function $1($2): $3;"],
+    "description": "abstract protected function with return type"
   }
 }
