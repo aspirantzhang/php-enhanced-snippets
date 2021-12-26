@@ -10,9 +10,13 @@
 You can use it to avoid wasting time typing Class blocks, function signatures or other common PHP statements.
 
 ## Usage
-Maybe it's a good practice to use only the first three letters of each word.
-For example, when I want 'php class with implements', then just type:
-`php cla imp` (no spaces when typing)
+It's a good practice to enter only the first two/three letters of each word. For example:
+
+ - 'php class' = 
+`ph cl` / `php cla`  **(no spaces when typing)**
+
+- 'php class with implements' = 
+`ph cl im` / `php cla imp`
 
 ## Snippets
 
