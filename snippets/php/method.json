@@ -40,7 +40,7 @@
     "description": "private function with return type"
   },
   "protected function return": {
-    "prefix": "protected-static-function-return",
+    "prefix": "protected-function-return",
     "body": ["protected function $1($2): $3", "{", "\t$0", "}"],
     "description": "protected function with return type"
   },
