@@ -1,0 +1,47 @@
+{
+  "function": {
+    "prefix": "function",
+    "body": ["function $1($2)", "{", "\t$0", "}"],
+    "description": "function"
+  },
+  "function return": {
+    "prefix": "function-return",
+    "body": ["function $1($2): $3", "{", "\t$0", "}"],
+    "description": "function with return type"
+  },
+  "function-anonymous": {
+    "prefix": "function-anonymous",
+    "body": ["function ($1) {", "\t$0", "};"],
+    "description": "anonymous function"
+  },
+  "function anonymous return": {
+    "prefix": "function-anonymous-return",
+    "body": ["function ($1): $2 {", "\t$0", "};"],
+    "description": "anonymous function return"
+  },
+  "function-anonymous-use": {
+    "prefix": "function-anonymous-use",
+    "body": ["function ($1) use ($2) {", "\t$0", "};"],
+    "description": "anonymous function with use"
+  },
+  "function anonymous use return": {
+    "prefix": "function-anonymous-use-return",
+    "body": ["function ($1) use ($2): $3 {", "\t$0", "};"],
+    "description": "anonymous function with use & return"
+  },
+  "arrow function": {
+    "prefix": "arrow-function",
+    "body": ["fn($1) => $0;"],
+    "description": "arrow function"
+  },
+  "arrow function return": {
+    "prefix": "arrow-function-return",
+    "body": ["fn($1): $2 => $0;"],
+    "description": "arrow function with return"
+  },
+  "arrow function nested": {
+    "prefix": "arrow-function-nested",
+    "body": ["fn($1) => fn($2) => $0;"],
+    "description": "arrow function nested"
+  }
+}

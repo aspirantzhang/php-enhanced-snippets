@@ -52,6 +52,10 @@
       {
         "language": "php",
         "path": "./snippets/php/method.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/php/function.json"
       }
     ]
   },
