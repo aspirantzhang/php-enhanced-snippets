@@ -59,7 +59,7 @@
       },
       {
         "language": "php",
-        "path": "./snippets/php/control.json"
+        "path": "./snippets/php/branching.json"
       }
     ]
   },
