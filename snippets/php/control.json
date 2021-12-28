@@ -49,5 +49,10 @@
       "}"
     ],
     "description": "switch with return"
+  },
+  "condition?true:false;": {
+    "prefix": ["if-three", "ternary-operator"],
+    "body": ["($1) ? $2 : $3;$0"],
+    "description": "Ternary Operator"
   }
 }
