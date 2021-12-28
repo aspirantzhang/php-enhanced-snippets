@@ -1,0 +1,53 @@
+{
+  "if block": {
+    "prefix": "if-block",
+    "body": ["if ($1) {", "\t$2", "}$0"],
+    "description": "if-block"
+  },
+  "if else": {
+    "prefix": "if-else-block",
+    "body": ["if ($1) {", "\t$2", "} else {", "\t$0", "}"],
+    "description": "if else block"
+  },
+  "if return": {
+    "prefix": "if-return-block",
+    "body": ["if ($1) {", "\treturn $2;", "}", "return $3;"],
+    "description": "if return-block"
+  },
+  "else block": {
+    "prefix": "else-block",
+    "body": ["else {", "\t$2;", "}"],
+    "description": "else block"
+  },
+  "else if block": {
+    "prefix": "elseif-block",
+    "body": ["elseif ($1) {", "\t$2;", "}"],
+    "description": "else if block"
+  },
+  "switch-break": {
+    "prefix": "switch-break",
+    "body": [
+      "switch ($1) {",
+      "\tcase $2:",
+      "\t\t$3;",
+      "\t\tbreak;",
+      "\t${4:case $5:\n\t\t$6;\n\t\tbreak;}",
+      "\tdefault:$0",
+      "}"
+    ],
+    "description": "switch with break"
+  },
+  "switch-return": {
+    "prefix": "switch-return",
+    "body": [
+      "switch ($1) {",
+      "\tcase $2:",
+      "\t\treturn $3;",
+      "\t${4:case $5:",
+      "\t\treturn $6;}",
+      "\tdefault:$0",
+      "}"
+    ],
+    "description": "switch with return"
+  }
+}

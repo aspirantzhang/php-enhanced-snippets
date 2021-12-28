@@ -56,6 +56,10 @@
       {
         "language": "php",
         "path": "./snippets/php/function.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/php/control.json"
       }
     ]
   },
