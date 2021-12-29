@@ -28,6 +28,18 @@ It's a good practice to enter only the first two/three letters of each word. For
 | php-close | `?>` | html |
 | php-page | `php page with strict type & namespace` | html |
 
+### Branching
+| Snippet | Output | Language
+| --- | --- | --- |
+| if-block | `if ($condition) {}` | php |
+| if-else-block | `if ($condition) {} else {}` | php |
+| if-return-block | `if ($condition) { return $foo; } return $bar;` | php |
+| else-block | `else {}` | php |
+| elseif-block | `elseif ($condition) {}` | php |
+| switch-break | `switch(){ case: ... break; }` | php |
+| switch-return | `switch(){ case: return ...; }` | php |
+| if-three / ternary-operator | `(condition)?true:false;` | php |
+
 ### Loop
 | Snippet | Output | Language
 | --- | --- | --- |
