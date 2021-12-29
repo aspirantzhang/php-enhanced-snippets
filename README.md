@@ -28,6 +28,16 @@ It's a good practice to enter only the first two/three letters of each word. For
 | php-close | `?>` | html |
 | php-page | `php page with strict type & namespace` | html |
 
+### Loop
+| Snippet | Output | Language
+| --- | --- | --- |
+| while-block | `while ($condition) {}` | php |
+| do-while-block | `do {} while ($condition);` | php |
+| for-i | `for ($i = 0; $i < $condition; $i++) {}` | php |
+| for-j | `for ($j = 0; $j < $condition; $j++) {}` | php |
+| foreach-block | `foreach ($array as $value) {}` | php |
+| foreach-key-value | `foreach ($array as $key => $value) {}` | php |
+
 ### Functions
 | Snippet | Output | Language
 | --- | --- | --- |

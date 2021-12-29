@@ -1,0 +1,40 @@
+{
+  "while block": {
+    "prefix": "while-block",
+    "body": ["while ($1) {", "\t$0", "}"],
+    "description": "while block"
+  },
+  "do while block": {
+    "prefix": "do-while-block",
+    "body": ["do {", "\t$0", "} while ($1);"],
+    "description": "do while block"
+  },
+  "for i": {
+    "prefix": "for-i",
+    "body": [
+      "for (\\$${1:i} = ${2:0}; \\$${1:i} < $3; \\$${1:i}++) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "for block with $i"
+  },
+  "for j": {
+    "prefix": "for-j",
+    "body": [
+      "for (\\$${1:j} = ${2:0}; \\$${1:j} < $3; \\$${1:j}++) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "for block with $i"
+  },
+  "foreach block": {
+    "prefix": "foreach-block",
+    "body": ["foreach (\\$$1 as \\$$2) {", "\t$0;", "}"],
+    "description": "foreach block"
+  },
+  "foreach key value": {
+    "prefix": "foreach-key-value",
+    "body": ["foreach (\\$$1 as \\$$2 => \\$$3) {", "\t$0;", "}"],
+    "description": "foreach key value"
+  }
+}

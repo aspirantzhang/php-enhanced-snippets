@@ -60,6 +60,10 @@
       {
         "language": "php",
         "path": "./snippets/php/branching.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/php/loop.json"
       }
     ]
   },
