@@ -64,6 +64,10 @@
       {
         "language": "php",
         "path": "./snippets/php/loop.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/php/shortcut.json"
       }
     ]
   },

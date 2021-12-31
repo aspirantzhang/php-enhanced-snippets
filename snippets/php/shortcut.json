@@ -1,0 +1,12 @@
+{
+  "print_r": {
+    "prefix": "pr",
+    "body": ["print_r(\\$$1);"],
+    "description": "print_r"
+  },
+  "var_dump": {
+    "prefix": "vd",
+    "body": ["var_dump(\\$$1);"],
+    "description": "var_dump"
+  }
+}

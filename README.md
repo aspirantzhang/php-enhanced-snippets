@@ -20,6 +20,12 @@ It's a good practice to enter only the first two/three letters of each word. For
 
 ## Snippets
 
+### Shortcuts
+| Snippet | Output | Language
+| --- | --- | --- |
+| pr | `print_r()` | php |
+| vd | `var_dump()` | php |
+
 ### PHP Tag
 | Snippet | Output | Language
 | --- | --- | --- |
