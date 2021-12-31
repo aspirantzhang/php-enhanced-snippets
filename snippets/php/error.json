@@ -1,0 +1,46 @@
+{
+  "throw new exception": {
+    "prefix": ["thr", "throw-new-exception"],
+    "body": ["throw new ${1:\\Exception}($2);"],
+    "description": "throw new exception"
+  },
+  "try catch": {
+    "prefix": "try-catch",
+    "body": ["try {", "\t$1", "} catch ($2) {", "\t$0", "}"],
+    "description": "try catch"
+  },
+  "try catch message": {
+    "prefix": "try-catch-message",
+    "body": [
+      "try {",
+      "\t$1",
+      "} catch (${2:\\Exception \\$e}) {",
+      "\t${0:\\$e->getMessage()}",
+      "}"
+    ],
+    "description": "try catch message"
+  },
+  "try catch finally": {
+    "prefix": "try-catch-finally",
+    "body": [
+      "try {",
+      "\t$1",
+      "} catch ($2) {",
+      "\t$3",
+      "}$4 finally {",
+      "\t$0",
+      "}"
+    ],
+    "description": "try catch finally"
+  },
+  "catch block": {
+    "prefix": "catch-block",
+    "body": ["catch ($1) {", "\t$0", "}"],
+    "description": "catch block"
+  },
+  "finally block": {
+    "prefix": "finally-block",
+    "body": ["finally {", "\t$0", "}"],
+    "description": "finally block"
+  }
+}

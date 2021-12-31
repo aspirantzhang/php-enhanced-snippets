@@ -67,6 +67,10 @@
       },
       {
         "language": "php",
+        "path": "./snippets/php/error.json"
+      },
+      {
+        "language": "php",
         "path": "./snippets/php/shortcut.json"
       }
     ]

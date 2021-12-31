@@ -118,6 +118,17 @@ It's a good practice to enter only the first two/three letters of each word. For
 | php-interface-extends | `php interface with extends` | html, php |
 | php-trait | `php trait` | html, php |
 
+
+### Error
+| Snippet | Output | Language
+| --- | --- | --- |
+| thr | `throw new \Exception()` | php |
+| try-catch | `try{} catch (){}` | php |
+| try-catch-message | `try{} catch (Exception $e){ $e->getMessage() }` | php |
+| try-catch-finally | `try{} catch (){} finally {}` | php |
+| catch-block | `catch (){}` | php |
+| finally-block | `finally {}` | php |
+
 ## Special Thanks
 This extension is forked from [h4kst3r/php-awesome-snippets](https://github.com/h4kst3r/php-awesome-snippets). Because its author seems to have not maintained it for a long time. So I made this fork to make the extension suitable for new version of PHP. I reorganized the snippets and added more standardized writing. Great thanks to h4kst3r's excellent work.
 
