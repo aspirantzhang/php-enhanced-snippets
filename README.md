@@ -9,6 +9,8 @@
 
 You can use it to avoid wasting time typing Class blocks, function signatures or other common PHP statements.
 
+<div align="center"><img src="img/demo.gif" width=400 /></div>
+
 ## Usage
 It's a good practice to enter only the first two/three letters of each word. For example:
 
