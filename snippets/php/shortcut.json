@@ -1,4 +1,9 @@
 {
+  "return": {
+    "prefix": ["r", "re"],
+    "body": ["return "],
+    "description": "return"
+  },
   "print_r": {
     "prefix": "pr",
     "body": ["print_r(\\$$1);"],
@@ -8,6 +13,16 @@
     "prefix": "vd",
     "body": ["var_dump(\\$$1);"],
     "description": "var_dump"
+  },
+  "$this->": {
+    "prefix": "th",
+    "body": ["\\$this->"],
+    "description": "$this->"
+  },
+  "$this->$property": {
+    "prefix": "thp",
+    "body": ["\\$this->$1 = \\$$1;"],
+    "description": "$this->$property"
   },
   "dirname(__DIR__)": {
     "prefix": "dirname-dir",

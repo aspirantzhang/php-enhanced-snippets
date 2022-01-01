@@ -36,6 +36,9 @@ It's a good practice to enter only the first two/three letters of each word. For
 ### Shortcuts
 | Snippet | Output | Language
 | --- | --- | --- |
+| r / re | `return ` | php |
+| th | `$this->` | php |
+| thp | `$this->property = $property;` | php |
 | pr | `print_r()` | php |
 | vd | `var_dump()` | php |
 | dirname-dir | `dirname(__DIR__)` | php |
