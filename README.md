@@ -12,11 +12,24 @@ You can use it to avoid wasting time typing Class blocks, function signatures or
 ## Usage
 It's a good practice to enter only the first two/three letters of each word. For example:
 
- - 'php class' = 
+- 'php class' = 
 `ph cl` / `php cla`  **(no spaces when typing)**
 
 - 'php class with implements' = 
 `ph cl im` / `php cla imp`
+
+## Design Principles
+
+- No unnecessary placeholders.
+  - ❌ if (condition) else { code }
+  - ✅ if () else {}
+- Follow the regular code input sequence.
+  - ❌ function-public
+  - ✅ public-function
+- Avoid short shortcuts that require special memorization.
+  - ❌ wl 
+  - ✅ while-block
+
 
 ## Snippets
 
