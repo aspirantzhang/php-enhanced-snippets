@@ -8,5 +8,10 @@
     "prefix": "vd",
     "body": ["var_dump(\\$$1);"],
     "description": "var_dump"
+  },
+  "dirname(__DIR__)": {
+    "prefix": "dirname-dir",
+    "body": ["dirname(__DIR__$0)"],
+    "description": "dirname(__DIR__)"
   }
 }

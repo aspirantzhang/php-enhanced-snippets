@@ -25,6 +25,7 @@ It's a good practice to enter only the first two/three letters of each word. For
 | --- | --- | --- |
 | pr | `print_r()` | php |
 | vd | `var_dump()` | php |
+| dirname-dir | `dirname(__DIR__)` | php |
 
 ### PHP Tag
 | Snippet | Output | Language
