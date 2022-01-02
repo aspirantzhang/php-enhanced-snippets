@@ -156,6 +156,10 @@ The new version number starts from 2.x.
 
 This work is inspired by PHPstorm (*PHP Live Templates*) and other works available on VScode marketplace like [PHP Snippets VS Code](https://github.com/heberalmeida/php-snippets) or [PHP Snippet Pack](https://github.com/jm-mwi/vscode-php-snippets/).
 
+## Contributing
+
+Read our [contributing guide](CONTRIBUTING.md).
+
 ## License
 
 [MIT](https://github.com/aspirantzhang/php-enhanced-snippets/blob/master/LICENSE) License
