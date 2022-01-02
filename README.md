@@ -4,6 +4,7 @@
 ![PHP8](https://img.shields.io/badge/PHP-%5E8.0-blue.svg)
 [![PSR-2](https://img.shields.io/badge/Standard-PSR--2-%2326A69A.svg)](https://www.php-fig.org/psr/psr-2/)
 [![PSR-12](https://img.shields.io/badge/Standard-PSR--12-%2326A69A.svg)](https://www.php-fig.org/psr/psr-12/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
 **This [VScode extension](https://marketplace.visualstudio.com/items?itemName=aspirantzhang.php-enhanced-snippets) provides a complete set of code snippets for PHP developers.**
 
