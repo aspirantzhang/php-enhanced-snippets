@@ -32,7 +32,6 @@ It's a good practice to enter only the first two/three letters of each word. For
   - ❌ wl 
   - ✅ while-block
 
-
 ## Snippets
 
 ### Shortcuts
@@ -40,6 +39,7 @@ It's a good practice to enter only the first two/three letters of each word. For
 | --- | --- | --- |
 | r / re | `return ` | php |
 | th | `$this->` | php |
+| se | `self::` | php |
 | thp | `$this->property = $property;` | php |
 | pr | `print_r()` | php |
 | vd | `var_dump()` | php |

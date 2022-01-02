@@ -19,6 +19,11 @@
     "body": ["\\$this->"],
     "description": "$this->"
   },
+  "self::": {
+    "prefix": "se",
+    "body": ["self::$0"],
+    "description": "self::"
+  },
   "$this->$property": {
     "prefix": "thp",
     "body": ["\\$this->$1 = \\$$1;"],
