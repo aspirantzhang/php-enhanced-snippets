@@ -1,6 +1,6 @@
 # Contributing
 
-A big welcome and thank you for considering contributing to Auth0 open source projects! It’s people like you that make it a reality for users in our community.
+A big welcome and thank you for considering contributing to the open source projects! It’s people like you that make it a reality for users in our community.
 
 ## Code of Conduct
 
