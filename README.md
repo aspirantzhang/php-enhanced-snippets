@@ -125,6 +125,7 @@ It's a good practice to enter only the first two/three letters of each word. For
 | php-abstract-class-no | `php abstract class without strict type & namespace` | html |
 | php-abstract-class-no-strict | `php abstract class without strict type` | html |
 | php-abstract-class-no-namespace | `php abstract class without namespace` | html |
+| php-abstract-class-extends | `php abstract class with extends` | html, php |
 | php-final-class | `php final class` | html, php |
 | php-final-class-no | `php final class without strict type & namespace` | html |
 | php-final-class-no-strict | `php final class without strict type` | html |

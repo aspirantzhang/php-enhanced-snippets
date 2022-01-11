@@ -145,6 +145,23 @@
     ],
     "description": "php abstract class without namespace"
   },
+  "php abstract class extends": {
+    "prefix": "php-abstract-class-extends",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "namespace $1;",
+      "",
+      "abstract class $TM_FILENAME_BASE extends $2",
+      "{",
+      "\t$0",
+      "}",
+      ""
+    ],
+    "description": "php abstract class with extends"
+  },
   "php final class": {
     "prefix": "php-final-class",
     "body": [

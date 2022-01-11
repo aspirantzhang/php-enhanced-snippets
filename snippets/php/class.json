@@ -19,6 +19,17 @@
     "body": ["abstract class $TM_FILENAME_BASE", "{", "\t$0", "}", ""],
     "description": "php abstract class"
   },
+  "php abstract class extends": {
+    "prefix": "php-abstract-class-extends",
+    "body": [
+      "abstract class $TM_FILENAME_BASE extends $1",
+      "{",
+      "\t$0",
+      "}",
+      ""
+    ],
+    "description": "php abstract class with extends"
+  },
   "php final class": {
     "prefix": "php-final-class",
     "body": ["final class $TM_FILENAME_BASE", "{", "\t$0", "}", ""],
