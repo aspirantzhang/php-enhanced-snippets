@@ -106,25 +106,13 @@ It's a good practice to enter only the first two/three letters of each word. For
 ### Methods
 | Snippet | Output | Language
 | --- | --- | --- |
-| public-construct | `public function __construct()` | php |
-| protected-construct | `protected function __construct()` | php |
-| private-construct | `private function __construct()` | php |
-| public-function | `public function` | php |
-| protected-function | `protected function` | php |
-| private-function | `private function` | php |
-| public-function-return | `public function with return type` | php |
-| protected-function-return | `protected function with return type` | php |
-| private-function-return | `private function with return type` | php |
-| public-static-function | `public static function` | php |
-| protected-static-function | `protected static function` | php |
-| private-static-function | `private static function` | php |
-| public-static-function-return | `public static function with return type` | php |
-| protected-static-function-return | `protected static function with return type` | php |
-| private-static-function-return | `private static function with return type` | php |
-| abstract-public-function | `abstract public function` | php |
-| abstract-protected-function | `abstract protected function` | php |
-| abstract-public-function-return | `abstract public function with return type` | php |
-| abstract-protected-function-return | `abstract protected function with return type` | php |
+| public-construct <br/> ^(protected \| private) ~ | `public function __construct()` | php |
+| public-function <br/> ^(protected \| private) ~ | `public function` | php |
+| public-function-return <br/> ^(protected \| private) ~ | `public function with return type` | php |
+| public-static-function <br/> ^(protected \| private) ~ | `public static function` | php |
+| public-static-function-return <br/> ^(protected \| private) ~ | `public static function with return type` | php |
+| abstract-public-function <br/> ^protected ~  | `abstract public function` | php |
+| abstract-public-function-return <br/> ^protected ~  | `abstract public function with return type` | php |
 
 ### Class related
 | Snippet | Output | Language
