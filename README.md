@@ -76,6 +76,20 @@ It's a good practice to enter only the first two/three letters of each word. For
 | foreach-block | `foreach ($array as $value) {}` | php |
 | foreach-key-value | `foreach ($array as $key => $value) {}` | php |
 
+### Properties
+| Snippet | Output | Language
+| --- | --- | --- |
+| public-bool <br/> ^(protected \| private) ~ | `public bool $` | php |
+| public-int <br/> ^(protected \| private) ~ | `public int $` | php |
+| public-float <br/> ^(protected \| private) ~ | `public float $` | php |
+| public-string <br/> ^(protected \| private) ~ | `public string $` | php |
+| public-array <br/> ^(protected \| private) ~ | `public array $` | php |
+| public-readonly-bool <br/> ^(protected \| private) ~ | `public readonly bool $` | php |
+| public-readonly-int <br/> ^(protected \| private) ~ | `public readonly int $` | php |
+| public-readonly-float <br/> ^(protected \| private) ~ | `public readonly float $` | php |
+| public-readonly-string <br/> ^(protected \| private) ~ | `public readonly string $` | php |
+| public-readonly-array <br/> ^(protected \| private) ~ | `public readonly array $` | php |
+
 ### Functions
 | Snippet | Output | Language
 | --- | --- | --- |

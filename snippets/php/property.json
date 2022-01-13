@@ -1,0 +1,152 @@
+{
+  "public bool": {
+    "prefix": "public-bool",
+    "body": ["public bool $"],
+    "description": "public bool"
+  },
+  "protected bool": {
+    "prefix": "protected-bool",
+    "body": ["protected bool $"],
+    "description": "protected bool"
+  },
+  "private bool": {
+    "prefix": "private-bool",
+    "body": ["private bool $"],
+    "description": "private bool"
+  },
+  "public int": {
+    "prefix": "public-int",
+    "body": ["public int $"],
+    "description": "public int"
+  },
+  "protected int": {
+    "prefix": "protected-int",
+    "body": ["protected int $"],
+    "description": "protected int"
+  },
+  "private int": {
+    "prefix": "private-int",
+    "body": ["private int $"],
+    "description": "private int"
+  },
+  "public float": {
+    "prefix": "public-float",
+    "body": ["public float $"],
+    "description": "public float"
+  },
+  "protected float": {
+    "prefix": "protected-float",
+    "body": ["protected float $"],
+    "description": "protected float"
+  },
+  "private float": {
+    "prefix": "private-float",
+    "body": ["private float $"],
+    "description": "private float"
+  },
+  "public string": {
+    "prefix": "public-string",
+    "body": ["public string $"],
+    "description": "public string"
+  },
+  "protected string": {
+    "prefix": "protected-string",
+    "body": ["protected string $"],
+    "description": "protected string"
+  },
+  "private string": {
+    "prefix": "private-string",
+    "body": ["private string $"],
+    "description": "private string"
+  },
+  "public array": {
+    "prefix": "public-array",
+    "body": ["public array $"],
+    "description": "public array"
+  },
+  "protected array": {
+    "prefix": "protected-array",
+    "body": ["protected array $"],
+    "description": "protected array"
+  },
+  "private array": {
+    "prefix": "private-array",
+    "body": ["private array $"],
+    "description": "private array"
+  },
+  "public readonly bool": {
+    "prefix": "public-readonly-bool",
+    "body": ["public readonly bool $"],
+    "description": "public readonly bool"
+  },
+  "protected readonly bool": {
+    "prefix": "protected-readonly-bool",
+    "body": ["protected readonly bool $"],
+    "description": "protected readonly bool"
+  },
+  "private readonly bool": {
+    "prefix": "private-readonly-bool",
+    "body": ["private readonly bool $"],
+    "description": "private readonly bool"
+  },
+  "public readonly int": {
+    "prefix": "public-readonly-int",
+    "body": ["public readonly int $"],
+    "description": "public readonly int"
+  },
+  "protected readonly int": {
+    "prefix": "protected-readonly-int",
+    "body": ["protected readonly int $"],
+    "description": "protected readonly int"
+  },
+  "private readonly int": {
+    "prefix": "private-readonly-int",
+    "body": ["private readonly int $"],
+    "description": "private readonly int"
+  },
+  "public readonly float": {
+    "prefix": "public-readonly-float",
+    "body": ["public readonly float $"],
+    "description": "public readonly float"
+  },
+  "protected readonly float": {
+    "prefix": "protected-readonly-float",
+    "body": ["protected readonly float $"],
+    "description": "protected readonly float"
+  },
+  "private readonly float": {
+    "prefix": "private-readonly-float",
+    "body": ["private readonly float $"],
+    "description": "private readonly float"
+  },
+  "public readonly string": {
+    "prefix": "public-readonly-string",
+    "body": ["public readonly string $"],
+    "description": "public readonly string"
+  },
+  "protected readonly string": {
+    "prefix": "protected-readonly-string",
+    "body": ["protected readonly string $"],
+    "description": "protected readonly string"
+  },
+  "private readonly string": {
+    "prefix": "private-readonly-string",
+    "body": ["private readonly string $"],
+    "description": "private readonly string"
+  },
+  "public readonly array": {
+    "prefix": "public-readonly-array",
+    "body": ["public readonly array $"],
+    "description": "public readonly array"
+  },
+  "protected readonly array": {
+    "prefix": "protected-readonly-array",
+    "body": ["protected readonly array $"],
+    "description": "protected readonly array"
+  },
+  "private readonly array": {
+    "prefix": "private-readonly-array",
+    "body": ["private readonly array $"],
+    "description": "private readonly array"
+  }
+}
