@@ -162,6 +162,23 @@
     ],
     "description": "php abstract class with extends"
   },
+  "php abstract class implements": {
+    "prefix": "php-abstract-class-implements",
+    "body": [
+      "<?php",
+      "",
+      "declare(strict_types=1);",
+      "",
+      "namespace $1;",
+      "",
+      "abstract class $TM_FILENAME_BASE implements $2",
+      "{",
+      "\t$0",
+      "}",
+      ""
+    ],
+    "description": "php abstract class with implements"
+  },
   "php final class": {
     "prefix": "php-final-class",
     "body": [

@@ -30,6 +30,17 @@
     ],
     "description": "php abstract class with extends"
   },
+  "php abstract class implements": {
+    "prefix": "php-abstract-class-implements",
+    "body": [
+      "abstract class $TM_FILENAME_BASE implements $1",
+      "{",
+      "\t$0",
+      "}",
+      ""
+    ],
+    "description": "php abstract class with implements"
+  },
   "php final class": {
     "prefix": "php-final-class",
     "body": ["final class $TM_FILENAME_BASE", "{", "\t$0", "}", ""],
