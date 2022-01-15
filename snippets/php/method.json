@@ -1,17 +1,17 @@
 {
   "public construct": {
     "prefix": "public-construct",
-    "body": ["public function __construct($1)", "{", "\t$0", "}"],
+    "body": ["public function __construct($0)", "{", "}"],
     "description": "public construct"
   },
   "private construct": {
     "prefix": "private-construct",
-    "body": ["private function __construct($1)", "{", "\t$0", "}"],
+    "body": ["private function __construct($0)", "{", "}"],
     "description": "private construct"
   },
   "protected construct": {
     "prefix": "protected-construct",
-    "body": ["protected function __construct($1)", "{", "\t$0", "}"],
+    "body": ["protected function __construct($0)", "{", "}"],
     "description": "protected construct"
   },
   "public function": {
