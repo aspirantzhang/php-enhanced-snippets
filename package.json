@@ -8,20 +8,17 @@
     "name": "Aspirant Zhang"
   },
   "categories": [
-    "Snippets",
-    "Programming Languages"
+    "Snippets"
   ],
   "keywords": [
-    "snippets",
-    "productivity",
-    "coding",
-    "php8",
+    "snippet",
+    "php",
     "psr"
   ],
   "icon": "img/icon.png",
   "galleryBanner": {
-    "color": "#eceff1",
-    "theme": "light"
+    "color": "#6682BA",
+    "theme": "dark"
   },
   "engines": {
     "vscode": "^1.0.0"
