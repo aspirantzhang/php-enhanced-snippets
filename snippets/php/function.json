@@ -30,17 +30,17 @@
     "description": "anonymous function with use & return"
   },
   "arrow function": {
-    "prefix": "arrow-function",
+    "prefix": ["arrow-function", "fn-function"],
     "body": ["fn($1) => $0;"],
     "description": "arrow function"
   },
   "arrow function return": {
-    "prefix": "arrow-function-return",
+    "prefix": ["arrow-function-return", "fn-function-return"],
     "body": ["fn($1): $2 => $0;"],
     "description": "arrow function with return"
   },
   "arrow function nested": {
-    "prefix": "arrow-function-nested",
+    "prefix": ["arrow-function-nested", "fn-function-nested"],
     "body": ["fn($1) => fn($2) => $0;"],
     "description": "arrow function nested"
   }
