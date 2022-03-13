@@ -76,22 +76,22 @@
   },
   "abstract public function": {
     "prefix": "abstract-public-function",
-    "body": ["abstract public function $1($2);"],
+    "body": ["abstract public function $1($0);"],
     "description": "abstract public function"
   },
   "abstract protected function": {
     "prefix": "abstract-protected-function",
-    "body": ["abstract protected function $1($2);"],
+    "body": ["abstract protected function $1($0);"],
     "description": "abstract protected function"
   },
   "abstract public function return": {
     "prefix": "abstract-public-function-return",
-    "body": ["abstract public function $1($2): $3;"],
+    "body": ["abstract public function $1($2): $0;"],
     "description": "abstract public function with return type"
   },
   "abstract protected function return": {
     "prefix": "abstract-protected-function-return",
-    "body": ["abstract protected function $1($2): $3;"],
+    "body": ["abstract protected function $1($2): $0;"],
     "description": "abstract protected function with return type"
   }
 }

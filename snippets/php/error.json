@@ -1,7 +1,7 @@
 {
   "throw new exception": {
     "prefix": ["thr", "throw-new-exception"],
-    "body": ["throw new ${1:\\Exception}($2);"],
+    "body": ["throw new ${1:\\Exception}($0);"],
     "description": "throw new exception"
   },
   "try catch": {

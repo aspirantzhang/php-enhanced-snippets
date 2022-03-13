@@ -1,7 +1,7 @@
 {
   "if block": {
     "prefix": "if-block",
-    "body": ["if ($1) {", "\t$2", "}$0"],
+    "body": ["if ($1) {", "\t$0", "}"],
     "description": "if-block"
   },
   "if else": {
@@ -11,17 +11,17 @@
   },
   "if return": {
     "prefix": "if-return-block",
-    "body": ["if ($1) {", "\treturn $2;", "}", "return $3;"],
+    "body": ["if ($1) {", "\treturn $2;", "}", "return $0;"],
     "description": "if return-block"
   },
   "else block": {
     "prefix": "else-block",
-    "body": ["else {", "\t$2;", "}"],
+    "body": ["else {", "\t$0;", "}"],
     "description": "else block"
   },
   "else if block": {
     "prefix": "elseif-block",
-    "body": ["elseif ($1) {", "\t$2;", "}"],
+    "body": ["elseif ($1) {", "\t$0;", "}"],
     "description": "else if block"
   },
   "switch-break": {
@@ -52,7 +52,7 @@
   },
   "condition?true:false;": {
     "prefix": ["if-three", "ternary-operator"],
-    "body": ["($1) ? $2 : $3;$0"],
+    "body": ["($1) ? $2 : $0;"],
     "description": "Ternary Operator"
   }
 }
