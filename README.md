@@ -95,10 +95,10 @@ It's a good practice to enter only the first two/three letters of each word. For
 | --- | --- | --- |
 | function | `function name($param) {}` | php |
 | function-return | `function name($param): string {}` | php |
-| function-anonymous | `function ($param) {}` | php |
-| function-anonymous-return | `function ($param): string {}` | php |
-| function-anonymous-use | `function ($param) use ($var) {}` | php |
-| function-anonymous-use-return | `function ($param) use ($var): string {}` | php |
+| anonymous-function | `function ($param) {}` | php |
+| anonymous-function-return | `function ($param): string {}` | php |
+| anonymous-function-use | `function ($param) use ($var) {}` | php |
+| anonymous-function-use-return | `function ($param) use ($var): string {}` | php |
 | arrow-function | `fn($foo) => $bar;` | php |
 | arrow-function-return | `fn($foo): string => $bar;` | php |
 | arrow-function-nested | `fn($foo) => fn($bar) => $baz;` | php |

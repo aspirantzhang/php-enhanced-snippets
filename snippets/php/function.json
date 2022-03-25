@@ -10,22 +10,25 @@
     "description": "function with return type"
   },
   "function-anonymous": {
-    "prefix": "function-anonymous",
+    "prefix": ["anonymous-function", "function-anonymous"],
     "body": ["function ($1) {", "\t$0", "};"],
     "description": "anonymous function"
   },
   "function anonymous return": {
-    "prefix": "function-anonymous-return",
+    "prefix": ["anonymous-function-return", "function-anonymous-return"],
     "body": ["function ($1): $2 {", "\t$0", "};"],
     "description": "anonymous function return"
   },
   "function-anonymous-use": {
-    "prefix": "function-anonymous-use",
+    "prefix": ["anonymous-function-use", "function-anonymous-use"],
     "body": ["function ($1) use ($2) {", "\t$0", "};"],
     "description": "anonymous function with use"
   },
   "function anonymous use return": {
-    "prefix": "function-anonymous-use-return",
+    "prefix": [
+      "anonymous-function-use-return",
+      "function-anonymous-use-return"
+    ],
     "body": ["function ($1) use ($2): $3 {", "\t$0", "};"],
     "description": "anonymous function with use & return"
   },
