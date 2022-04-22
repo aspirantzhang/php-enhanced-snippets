@@ -5,7 +5,7 @@
     "description": "throw new exception"
   },
   "try catch": {
-    "prefix": "try-catch",
+    "prefix": "try-catch-block",
     "body": ["try {", "\t$1", "} catch ($2) {", "\t$0", "}"],
     "description": "try catch"
   },

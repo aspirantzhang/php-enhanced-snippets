@@ -147,7 +147,7 @@ It's a good practice to enter only the first two/three letters of each word. For
 | Snippet | Output | Language
 | --- | --- | --- |
 | thr | `throw new \Exception()` | php |
-| try-catch | `try{} catch (){}` | php |
+| try-catch-block | `try{} catch (){}` | php |
 | try-catch-message | `try{} catch (Exception $e){ $e->getMessage() }` | php |
 | try-catch-finally | `try{} catch (){} finally {}` | php |
 | catch-block | `catch (){}` | php |
