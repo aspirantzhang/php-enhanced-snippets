@@ -77,12 +77,12 @@
     ]
   },
   "devDependencies": {
-    "auto-changelog": "^2.3.0"
+    "standard-version": "^9.3.2"
   },
   "scripts": {
-    "version": "auto-changelog -p && git add CHANGELOG.md",
+    "version": "standard-version",
     "package": "vsce package",
     "release": "vsce publish",
-    "push": "yarn version && git push && yarn release"
+    "push": "yarn version && git push --follow-tags origin master && yarn release"
   }
 }
