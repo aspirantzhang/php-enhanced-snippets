@@ -2,7 +2,7 @@
   "if block": {
     "prefix": "if-block",
     "body": ["if ($1) {", "\t$0", "}"],
-    "description": "if-block"
+    "description": "if block"
   },
   "if else": {
     "prefix": "if-else-block",
@@ -54,5 +54,10 @@
     "prefix": ["if-three", "ternary-operator"],
     "body": ["($1) ? $2 : $0;"],
     "description": "Ternary Operator"
+  },
+  "if function not exists": {
+    "prefix": "if-function-not-exists",
+    "body": ["if (!function_exists('$1')) {", "\t$0", "}"],
+    "description": "if function not exists"
   }
 }
