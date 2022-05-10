@@ -1,3 +1,46 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [2.19.0](https://github.com/aspirantzhang/php-enhanced-snippets/compare/v2.2.0...v2.19.0) (2022-05-10)
+
+
+### Features
+
+* add abstract class ([0c2a08d](https://github.com/aspirantzhang/php-enhanced-snippets/commit/0c2a08d7afea8fae0ad8d06de69bdd04eb0c1a6c))
+* add abstract class extends snippet ([48e8ed4](https://github.com/aspirantzhang/php-enhanced-snippets/commit/48e8ed4014ea10a0ac134762787bdb10147bf8ad))
+* add abstract class with implements ([d67dd5e](https://github.com/aspirantzhang/php-enhanced-snippets/commit/d67dd5e6c86c2871180d27a4ac04931e886cbd4e))
+* add abstract method ([c77d7b3](https://github.com/aspirantzhang/php-enhanced-snippets/commit/c77d7b3b121fb15a1501d30e9011a38c58422f6e))
+* add branching doc ([1cb16b9](https://github.com/aspirantzhang/php-enhanced-snippets/commit/1cb16b9946249e09cf96d980b61563d2f14b3e94))
+* add construct method ([f14be05](https://github.com/aspirantzhang/php-enhanced-snippets/commit/f14be055cb915a756edb48b82594f42f89ed0281))
+* add dirname snippet ([c237374](https://github.com/aspirantzhang/php-enhanced-snippets/commit/c237374e6f10842b8e9827471d14a6d98bd8ad11))
+* add error snippets ([ff87529](https://github.com/aspirantzhang/php-enhanced-snippets/commit/ff87529dc9ce8f7d5700b5751f68d1943dacc651))
+* add final class ([82dd92f](https://github.com/aspirantzhang/php-enhanced-snippets/commit/82dd92fcf6acc6d32986fdc2fd24108da2c9947b))
+* add functions ([a9e4b7d](https://github.com/aspirantzhang/php-enhanced-snippets/commit/a9e4b7dc7c1129aa0f912936065a591178472f4a))
+* add if/else and switch snippets ([098d139](https://github.com/aspirantzhang/php-enhanced-snippets/commit/098d139548d64a36d8a13e12bf5713a71ba7839a))
+* add loop snippets ([899da9b](https://github.com/aspirantzhang/php-enhanced-snippets/commit/899da9bd4ce991608270184e8762552d2dfed369))
+* add more trigger words for anonymous function ([43e2405](https://github.com/aspirantzhang/php-enhanced-snippets/commit/43e240526995ba340b747fc09cdab881e996e4eb))
+* add more trigger words for arrow function ([b64a7b0](https://github.com/aspirantzhang/php-enhanced-snippets/commit/b64a7b0272dbdd1350c03a1a5c85e4f99f6bdb5c))
+* add php interface ([a2544f8](https://github.com/aspirantzhang/php-enhanced-snippets/commit/a2544f84dce0485bdf7625de1c201cda79fcf4ab))
+* add php tag and page snippets ([eef6e98](https://github.com/aspirantzhang/php-enhanced-snippets/commit/eef6e9853e43e8dd2a140bc48dca263a21c1ba73))
+* add php trait ([7606dbb](https://github.com/aspirantzhang/php-enhanced-snippets/commit/7606dbb93597fc6026583ecffed9764b9679d15d))
+* add property snippets ([18af9a6](https://github.com/aspirantzhang/php-enhanced-snippets/commit/18af9a65dc34c7658381a598d32ea00befce9917))
+* add regular method ([3d7fc15](https://github.com/aspirantzhang/php-enhanced-snippets/commit/3d7fc156ff5564f5cce2357680998a4f6fff4f73))
+* add return and this ([165e1ba](https://github.com/aspirantzhang/php-enhanced-snippets/commit/165e1ba6fb3389ae7b9bd8ec22eb6cab4e99addd))
+* add self:: ([8608c3c](https://github.com/aspirantzhang/php-enhanced-snippets/commit/8608c3c5e40b4179191adbbe64aa6239b4a3b1a0))
+* add snippet: if function not exists ([6bfc930](https://github.com/aspirantzhang/php-enhanced-snippets/commit/6bfc9307160774f829ebd7179dab8fa45f966a8f))
+* add static mehod ([9572474](https://github.com/aspirantzhang/php-enhanced-snippets/commit/957247433e45b71f2decb375d8f9a55cdc372c77))
+* add Ternary Operator ([3c6febc](https://github.com/aspirantzhang/php-enhanced-snippets/commit/3c6febc1e17858695467aa7b1b7e22065e6d948b))
+* add var_dump and print_r ([401ff9a](https://github.com/aspirantzhang/php-enhanced-snippets/commit/401ff9a921fcf6ca3dff56787686edc3a186ea1b))
+
+
+### Bug Fixes
+
+* fix wrong prefix of protected function method ([ba232e8](https://github.com/aspirantzhang/php-enhanced-snippets/commit/ba232e83360e69bef958f2d3909ab5cef455daed))
+* remove dollar sign placeholder of vd and pr ([a138b77](https://github.com/aspirantzhang/php-enhanced-snippets/commit/a138b7754d9d8f253038cdd62295582b2bd2010a))
+* replace space with \t ([9947e6b](https://github.com/aspirantzhang/php-enhanced-snippets/commit/9947e6bb9f3baff7b948ac8b77644ed1825bee20))
+* use $0 as the end placeholder ([8b8499e](https://github.com/aspirantzhang/php-enhanced-snippets/commit/8b8499e464d030cc0a98811dee051afcdcccca7c))
+
 ### Changelog
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
