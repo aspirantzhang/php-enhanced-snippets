@@ -80,9 +80,8 @@
     "standard-version": "^9.3.2"
   },
   "scripts": {
-    "version": "standard-version",
     "package": "vsce package",
-    "release": "vsce publish",
-    "push": "yarn version && git push --follow-tags origin master && yarn release"
+    "vsce": "vsce publish",
+    "push": "yarn standard-version && git push --follow-tags"
   }
 }
