@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.19.1](https://github.com/aspirantzhang/php-enhanced-snippets/compare/v2.19.0...v2.19.1) (2022-09-11)
+
+
+### Bug Fixes
+
+* remove semicolons that shouldn't be there ([68d139b](https://github.com/aspirantzhang/php-enhanced-snippets/commit/68d139b476ebad0952b579c2b82c85bb54dc972e))
+
 ## [2.19.0](https://github.com/aspirantzhang/php-enhanced-snippets/compare/v2.2.0...v2.19.0) (2022-05-10)
 
 
